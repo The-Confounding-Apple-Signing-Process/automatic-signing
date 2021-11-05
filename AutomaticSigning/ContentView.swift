@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, xCode Automatic Signing!")
+            .bold()
             .padding()
+            .background(Color.orange)
+            .foregroundColor(.white)
     }
 }
 
@@ -19,3 +22,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
